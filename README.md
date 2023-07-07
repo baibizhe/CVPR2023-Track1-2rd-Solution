@@ -29,6 +29,8 @@ cd /PaddleSeg/contrib/PanopticSeg/paddlepanseg/models/ops
 cd ms_deform_attn
 python setup.py install
 ```
+if you are facing   error: ‘_cvtss_sh’ was not declared in this scope error: ‘_cvtsh_ss’ was not declared in this scope.
+add  #include <immintrin.h> to .../site-packages/paddle/include/paddle/phi/common/float16.h
 ### Data Configuration
 
 You can download the data from: https://pan.baidu.com/s/10HDywKyzu6R8q-Lxrpn3pw (J69v) ,and decompress the data into the 'datasets' folder 
