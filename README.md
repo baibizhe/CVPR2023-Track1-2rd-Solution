@@ -49,6 +49,8 @@ All the pretrained model above can be download from: https://pan.baidu.com/s/10H
 ```bash
 sh scripts/train.sh
 ```
+if you are facing error  like "ValueError: matrix contains invalid numeric entrie". follow
+https://gmnam.tistory.com/281
 
 ### Inference
 
